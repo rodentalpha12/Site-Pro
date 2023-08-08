@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'consolasregular';
+    src: url('../../../font/consola-webfont.woff2') format('woff2'),
+         url('../../../font/consola-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'acmeregular';
+    src: url('../../../font/acme-regular-webfont.woff2') format('woff2'),
+         url('../../../font/acme-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: consolasregular;
+}
+
+#pmargalef-photo{
+    margin:9px;
+}
+
+#document-body{
+    padding:10px;
+    font-size: 15px;
+    font-family: Courier New;
+}
+
+#page-menu {
+    box-shadow: 0 10px 10px -5px;
+}
+
+header h2, footer h2 {
+    font-size: 15px!important;
+    font-weight: bold!important;
+}
+
+footer h2.title {
+    font-size: 6px!important;
+}
+
+h1{
+    font-size: 20px;
+    /*text-shadow: -1px -1px #9df, 1px 1px #49d, -3px 0 4px #000;*/
+    font-family:acmeregular;
+    /*color:#6bf;*/
+    text-align:left;
+    padding: 5px;
+    margin:0;
+    font-weight: bold;
+    background-color: #ddd;
+}
+
+#h1-container{
+    padding:0px;
+}
+
+.pane-sm.sidebar.short-menu {
+    min-width: 0px;
+}
+
+.pane-sm.sidebar.short-menu .nav-group-item{
+    padding: 5px;
+    padding-top: 0px;
+    padding-bottom: 9px;
+}
+
+.pane-sm.sidebar.short-menu .nav-group-item .icon {
+    width:10px;
+}
+
+nav .nav-group-item a {
+    /* background-color: #b6d4fe!important; */
+
+}
+
+nav .nav-group-item.active a, .nav-group-item:active a{
+    color:#000000!important;
+    font-weight: bold;
+}
+
+.alert{
+    padding: 5px;
+}
+
+.group-badge span {
+    margin-right: 5px;
+}
+
+header {
+    font-weight: bold;
+}
+
+.table th,
+.alert.alert-primary {
+    background-color: #ccf;
+    font-weight: bold;
+}
+
+.table td {
+    background-color: #ddd;
+    border: 1px solid #000000;
+}
+
